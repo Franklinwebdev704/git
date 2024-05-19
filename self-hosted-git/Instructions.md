@@ -472,6 +472,11 @@ remove Nginx HTTP and Nginx HTTP (v6) as they are unnecessary for HTTPS access. 
 **Execute:** 
     
     sudo ufw allow 80
+    
+**Execute:** 
+    
+    sudo ufw allow 22
+This part is very important else, you will lock your self out of the server.
 
 ![image](https://github.com/Franklinwebdev704/git/assets/40476836/96b0a3f4-24c9-4298-8129-65212c5914ad)
 
